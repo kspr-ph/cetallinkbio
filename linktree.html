@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkBio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        @media screen and (max-width: 600px) {
+            html, body {
+            height: 100%;
+            margin: 0;}
+        body{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(13, 165, 58);
+            background-image: url(w111.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        header{
+            background-color: rgba(4, 131, 42, 0.541);
+            border-bottom: 2px solid white;
+            text-align: center;
+            font-family: Grape Nuts;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            align-items: center;
+
+        }
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            padding: 5px;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            width: 30vh;
+            justify-content: center;
+        }
+        fieldset a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            transition: background-color 0.5s ease;
+            border-radius: 10px;
+        }
+        fieldset a:hover{
+            scale: 1.025;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 10px;
+            background-color: rgba(9, 255, 0, 0.534);
+            box-shadow: 2px 2px 10px black;
+        }
+        .b1 p{
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: Grape Nuts;
+        }
+        .b1 img{
+            margin-top:-5px;
+        }
+        .b1{
+            text-align: center;
+            background-color: rgba(4, 131, 42, 0.664);
+            border-radius: 10px;
+        }
+        footer{
+            color: white;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+        }
+
+ 
+        @media screen and (min-width: 600px){
+            body, footer, header, a, img, p, h1{
+            background-color: black;
+            color: black;
+            width: 0px;
+            height: 0px;
+            border: 0px solid black;
+            font-size: 0px;
+        } 
+ 
+        }
+        
+
+      </style>
+</head>
+<body>
+    <header>
+        <h1>Tudo da Cetal <br>em um só lugar!</h1>
+    </header>
+    <div class="container">
+        <form>
+            <fieldset>
+                <a href="https://www.instagram.com/cetaltreinamentos/" target="_blank">
+                    <div class="b1">
+                        <p>Instagram</p>
+                        <img src="insta.svg" width="50px">
+                    </div>
+                </a>
+                <br>
+                <a href="https://www.facebook.com/cetaltreinamentos1" target="_blank">
+                    <div class="b1">
+                        <p>Facebook</p>
+                        <img src="face.svg" width="50px">
+                    </div>
+                </a>
+                <br>
+                <a href="https://wa.me/5522992230277?" target="_blank">
+                    <div class="b1">
+                        <p>Whatsapp</p>
+                        <img src="whatsapp.svg" width="50px">
+                    </div>
+                </a>
+                <br>
+                <a href="https://cetaltreinamentos.com.br/" target="_blank">
+                    <div class="b1">
+                        <p>Website</p>
+                        <img src="google.svg" width="50px">
+                    </div>
+                </a>
+                
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p>Criado e desenvolvido por <strong><a href="https://www.instagram.com/pehz__">pH Designs</a></strong></p>
+    </footer>
+</body>
+</html>
